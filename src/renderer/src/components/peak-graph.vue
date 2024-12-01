@@ -112,27 +112,6 @@ onMounted(async () => {
         class="w-full h-full p-0 m-0 bg-neutral-900 bg-opacity-50"
       ></svg>
     </div>
-
-    <div class="flex flex-col gap-2">
-      <div class="flex gap-2">
-        <h1 class="text-cyan-200 opacity-75 font-thin text-[15px]">渔获阈值</h1>
-        <p class="text-neutral-600 text-[15px]">高于阈值上钩</p>
-      </div>
-
-      <div class="relative w-[110px] overflow-hidden">
-        <input
-          v-model="lootThresold"
-          type="number"
-          max="100"
-          min="1"
-          class="num-input w-[110px] bg-neutral-800 px-2 py-1 focus:outline-neutral-800 outline-none rounded-md shadow-md text-neutral-300"
-        />
-        <div
-          :style="{ opacity: `${lootThresold}%` }"
-          class="absolute select-none transition-all shadow-md border-black duration-300 bg-gradient-to-b w-[4px] top-0 right-0 from-blue-200 rounded-r-md to-yellow-200 h-full"
-        ></div>
-      </div>
-    </div>
   </section>
 </template>
 
