@@ -6,8 +6,8 @@ import { useCore } from './core'
 
 function createWindow(): void {
   const mainWindow = new BrowserWindow({
-    width: 600,
-    height: 500,
+    width: 360,
+    height: 290,
     show: false,
     frame: false,
     resizable: false,

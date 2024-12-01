@@ -30,7 +30,6 @@ onMounted(reloadCore)
   <div class="titlebar">
     <PixelarticonsAnchor class="b-icon mb-[2px]"></PixelarticonsAnchor>
     <h2 class="title">Bobber</h2>
-    <h3 class="suffix">Powered by RPALite</h3>
     <div class="core-state ml-auto mr-4 inline-flex items-center gap-2">
       <span v-if="coreLoading" class="suffix"> 正在启动核心 </span>
       <span v-else class="suffix">
